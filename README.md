@@ -1,13 +1,11 @@
-Este projeto simula características de um blog de filmes onde os usuários podem ver a sinopse dos filmes e adicioná-los à sua lista pessoal de favoritos
-
-#### Linguagens e Ferramentas
+#### ⚒️ Technologies
 - PHP
 - MySQL
 - HTML, CSS, Bootstrap
 - JavaScript
   
 
-#### Demonstração
+#### ✨ Preview
 ##### index.php (home)
 
 ![image](https://github.com/user-attachments/assets/4f9c7823-cb47-4f59-8461-0dd20c8fcd1e)
