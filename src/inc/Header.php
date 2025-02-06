@@ -10,8 +10,8 @@
 </head>
 <body>
     <header class="p-4 bg-dark bg-gradient text-white d-flex flex-row justify-content-around align-items-center">
-        <h4 class=""><a class="text-white" href="<?= $is_home ? "./index.php" : "../../public/index.php" ?>">TechStore</a></h4>
-        <div class="d-flex flex-row align-items-center">
+        <h4 class="pe-5"><a class="text-white" href="<?= $is_home ? "./index.php" : "../../public/index.php" ?>">TechStore</a></h4>
+        <div class="d-flex flex-row align-items-center" style="margin-left:8.5%;">
             <div class="d-flex flex-row justify-content-around">
                 <a class="text-white px-4 tracking-wide" href="">Books</a>
             </div>
