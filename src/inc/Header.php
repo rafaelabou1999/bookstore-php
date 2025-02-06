@@ -11,10 +11,10 @@
 <body>
     <header class="p-4 bg-dark bg-gradient text-white d-flex flex-row justify-content-around align-items-center">
         <h4 class=""><a class="text-white" href="<?= $is_home ? "./index.php" : "../../public/index.php" ?>">TechStore</a></h4>
-        <div class="d-flex flex-row justify-content-around">
-            <a class="text-white px-4 tracking-wide" href="">Books</a>
-            <a class="text-white px-4 tracking-wide" href="">Contact</a>
-            <a class="text-white px-4 tracking-wide" href="">My Cart</a>
-            <button class=" bg-transparent text-info fw-bold align-self-center">Add a book</button>
+        <div class="d-flex flex-row align-items-center">
+            <div class="d-flex flex-row justify-content-around">
+                <a class="text-white px-4 tracking-wide" href="">Books</a>
+            </div>
+            <button class="align-self-center" style="background-color:#2485ed;color:#f5f5f5;padding:1% 4%;border:none;width:90px;height:30px;border-radius:5px;" >Add a book</button>
         </div>
     </header>

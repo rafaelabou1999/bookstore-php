@@ -1,5 +1,6 @@
 <?php 
 $is_home = false;
+include __DIR__ . '/../inc/books.php';
 include __DIR__ . '/../inc/Header.php';
 ?>
 
