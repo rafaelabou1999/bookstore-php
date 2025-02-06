@@ -23,7 +23,11 @@ include __DIR__ . '/../src/inc/books.php';
                        $url = "http://localhost/bookstore/src/Views/details.php?" . $query_params;
                     ?>
                     <div class="col-md-3 mb-3">
+                    <?php if(!empty($book['img'])):?>
                         <a href='<?= $url ?>'><img class=' book img-fluid border border-secondary ' src='<?= $book['img'] ?>' style='width:100%; height:330px;object-fit:cover;'></a>
+                    <?php else:?>
+                        <a href='<?= $url ?>'><img class=' book img-fluid border border-secondary ' src='./assets/empty_img.png' style='width:100%; height:330px;object-fit:cover;'></a>
+                    <?php endif;?>
                     </div>
                       
                     <?php endforeach;?>

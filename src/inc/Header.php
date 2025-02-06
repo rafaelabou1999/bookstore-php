@@ -19,8 +19,8 @@
         <h4 class="pe-5 col-md-7 " style="margin-right:3.6%;"><a class="text-white" href="<?= $is_home ? "./index.php" : "../../public/index.php" ?>">TechStore</a></h4>
         <div class="col d-flex flex-row align-items-center" style="">
             <div class="d-flex flex-row justify-content-around">
-                <a class="text-white px-4 tracking-wide" href="">Books</a>
+                <a class="text-white px-4 tracking-wide" href="<?= $is_home ? "../src/Views/bookstore.php" : "./bookstore.php" ?>">Books</a>
             </div>
-            <button class="align-self-center" style="background-color:#2485ed;color:#f5f5f5;padding:1% 4%;border:none;width:145px;height:30px;border-radius:5px;" >Add a book</button>
+            <button class="align-self-center btn btn-primary" style="color:#f5f5f5;padding:1% 4%;border:none;width:145px;height:30px;border-radius:5px;" ><a class="text-white" href="<?= $is_home ? "../src/Views/add.php" : "./add.php" ?>">Add a book</a></button>
         </div>
     </header>

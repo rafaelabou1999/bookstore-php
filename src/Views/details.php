@@ -7,7 +7,11 @@ include __DIR__ . '/../inc/Header.php';
         <?php if($_GET['id'] == $book['id']): ?>
         <div class="d-flex flex-row" style="padding-left:19.5%;padding-top:5%;">
             <div class="">
+                <?php if(!empty($book['img'])):?>
                 <img class="border border-secondary" src="<?= $book['img'] ?>" width="300px" height="380px" style="object-fit:cover;"/>
+                <?php else:?>
+                    <img src="../../public/assets/empty_img.png"/>
+                <?php endif;?>
             </div>
             <div class="ps-5 position-relative" style="width:40%;">
                  <h3 class="text-secondary fw-bold"><?= $_GET['title'] ?></h3>
