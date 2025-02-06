@@ -1,9 +1,8 @@
 <?php 
+$is_home = true;
+
 include __DIR__ . '/../src/inc/Header.php'; 
 include __DIR__ . '/../src/inc/books.php';
-
-$is_home = true;
-$images = array_column($books, "img");
 ?>
     <main >
         <div class="bg-secondary bg-opacity-25" style="height:350px; width:100%; padding-left: 20%;padding-top:3.5%;" >
@@ -14,12 +13,22 @@ $images = array_column($books, "img");
         <div>
             <h3 class="text-center fw-bold text-secondary" style="padding-top:5%;">Latest Books</h3>
             <div class="d-flex flex-row justify-content-center py-5">
-                <?php foreach ($images AS $image ): ?>
-                    <a href="../src/Views/details.php"><img class="book img-fluid border border-secondary me-5" src="<?= $image ?>" style="width:250px; height:330px;object-fit:cover;"></a>
-                <?php endforeach; ?>
+                
+                <?php foreach ($books AS $book):?>
+                     <?php 
+                       $query_params = http_build_query([
+                        "title" => $book['title']
+                       ]) ;
+                       $url = "http://localhost/bookstore/src/Views/details.php?" . $query_params;
+                    ?>
+                     <a href='<?= $url ?>'><img class='book img-fluid border border-secondary me-5' src='<?= $book['img'] ?>' style='width:250px; height:330px;object-fit:cover;'></a>
+                      
+                    <?php endforeach;?>
+            
             </div>
         </div>
     </main>
+
 
 <?php include __DIR__ . '/../src/inc/Footer.php' ?>
 
