@@ -17,6 +17,7 @@ include __DIR__ . '/../src/inc/books.php';
                 <?php foreach ($books AS $book):?>
                      <?php 
                        $query_params = http_build_query([
+                        "id" => $book['id'],
                         "title" => $book['title']
                        ]) ;
                        $url = "http://localhost/bookstore/src/Views/details.php?" . $query_params;
