@@ -16,8 +16,8 @@
 </style>
 <body class="" >
     <header class="row p-4 bg-dark bg-gradient text-white  align-items-center justify-content-around" style="padding-left:19.5% !important;">
-        <h4 class="pe-5 col-md-7 " style="margin-right:3.6%;"><a class="text-white" href="<?= $is_home ? "./index.php" : "../../public/index.php" ?>">TechStore</a></h4>
-        <div class="col d-flex flex-row align-items-center" style="">
+        <h4 class=" col-md-7" style="margin-right:3.6%;margin-top:1.5%;"><a class="text-white" href="<?= $is_home ? "./index.php" : "../../public/index.php" ?>">TechStore</a></h4>
+        <div class="col d-flex flex-row align-items-center" style="margin-top:.4%;">
             <div class="d-flex flex-row justify-content-around">
                 <a class="text-white px-4 tracking-wide" href="<?= $is_home ? "../src/Views/bookstore.php" : "./bookstore.php" ?>">Books</a>
             </div>
