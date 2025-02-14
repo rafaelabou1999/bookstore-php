@@ -10,7 +10,6 @@ include __DIR__ . '/../inc/Header.php';
 $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASSWORD);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-
 if(isset($_POST['submit'])){
     if($_FILES['image']['error'] == 0){
         $file_size = $_FILES['image']['size'] / 1024;
@@ -26,9 +25,9 @@ if(isset($_POST['submit'])){
             $move = move_uploaded_file($_FILES['image']['tmp_name'], $file_path);   
                     
             if($move){
-                    echo "<h3>File moved successfully</h3>";
+                echo "<script>alert('File uploaded!')</script>";
             } else{
-                    echo '<h3>Moving failed</h3>';
+                echo "<script>alert('Upload failed')</script>";
             }
 
             $_SESSION['title'] = sanitize($_POST['title']);
@@ -47,15 +46,15 @@ if(isset($_POST['submit'])){
                 ':price' => $_SESSION['price'] ?? 15.00,
             ]);    
         } else{
-            echo "<h3>File above 300 kb or not compatible with png or jpeg</h3>";
+            echo "<script>alert(File above 300 kb or not compatible with png or jpeg)</script>";
         }
     } else{
-        echo 'error file';
+        echo '<script>alert(File error!)</script>';
     }
    
 }
 ?>
-<div class="position-relative" style="width:20%;margin:5% auto;">
+<div class="form_container position-relative" style="width:20%;margin:5% auto;">
     <form action="" enctype="multipart/form-data" method="POST">
         <label class="form-label fs-3 fw-bold text-secondary" for="title" style="letter-spacing:.05em">*Title</label>
         <input class="form-control mb-4 " type="text" name="title" id="title" required/>
@@ -74,4 +73,7 @@ if(isset($_POST['submit'])){
         <button type="submit" name="submit" class="btn btn-primary border border-none position-absolute end-0 bottom-5">Add</button>
     </form>
 </div>
+<script>
+    
+</script>
 <?php include __DIR__ . '/../inc/Footer.php'?>

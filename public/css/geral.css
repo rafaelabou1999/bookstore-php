@@ -1,0 +1,39 @@
+.details_container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:800px){
+    .container{
+        text-align: center !important;
+    }
+
+    .subtitle_book{
+        padding-left:29.5% !important ;
+    }
+
+    .banner{
+        padding-left:5% !important;
+    }
+
+    .book{
+        width:65% !important;
+        height:350px !important;
+    }
+
+    .details_container{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left:6% !important;
+    }
+
+    .details_text{
+        width:95% !important;
+    }
+
+    .form_container{
+        width:85% !important;
+        margin-bottom: 29% !important;
+    }
+}
