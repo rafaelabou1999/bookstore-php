@@ -26,16 +26,16 @@
 
 1️⃣ Clone this repository to your local machine:
 
-git clone https://github.com/your-username/your-project.git
+- git clone https://github.com/your-username/your-project.git
 
 2️⃣ Navigate to the project directory:
 
-cd your-project
+- cd your-project
 
 3️⃣ Import the MySQL database:
 
-mysql -u your-username -p your-database < database.sql
+- mysql -u your-username -p your-database < database.sql
 
 4️⃣ Open the project in your browser:
-Go to http://localhost/your-project
+- Go to http://localhost/your-project
 
