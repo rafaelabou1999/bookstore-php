@@ -8,19 +8,22 @@
 
 - 🔍 View detailed information about each book
 
-<br>
+</br>
+
 #### ⚒️ Technologies
 - PHP
 - MySQL
 - HTML, CSS, Bootstrap
 - JavaScript
 
-<br>
+</br>
+
 #### ✨ Preview
 ### index.php (home)
 ![image](https://github.com/user-attachments/assets/4f9c7823-cb47-4f59-8461-0dd20c8fcd1e)
 
-<br>
+</br>
+
 ### To view this project:
 
 #### Requirements
