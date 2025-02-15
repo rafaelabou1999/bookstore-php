@@ -14,7 +14,6 @@
 - PHP
 - MySQL
 - HTML, CSS, Bootstrap
-- JavaScript
 
 </br>
 
