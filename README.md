@@ -1,4 +1,4 @@
-## TechOnline
+## TechStore
 ##### An online bookstore where you can find and explore detailed information about tech books and add the ones you desire
 
 #### ⚒️ Technologies
