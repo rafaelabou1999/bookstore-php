@@ -1,6 +1,13 @@
 ## TechStore
-##### An online bookstore where you can find and explore detailed information about tech books and add the ones you desire
+##### An online bookstore where you can find and explore detailed information about tech books add the ones you desire
 
+
+#### 🚀 Features
+
+- 🛒 Add books to the bookstore
+
+- 🔍 View detailed information about each book
+ 
 #### ⚒️ Technologies
 - PHP
 - MySQL
