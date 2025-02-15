@@ -7,6 +7,7 @@
 - 🛒 Add books to the bookstore
 
 - 🔍 View detailed information about each book
+
  
 #### ⚒️ Technologies
 - PHP
@@ -14,9 +15,11 @@
 - HTML, CSS, Bootstrap
 - JavaScript
 
+
 #### ✨ Preview
 ### index.php (home)
 ![image](https://github.com/user-attachments/assets/4f9c7823-cb47-4f59-8461-0dd20c8fcd1e)
+
 
 ### To view this project:
 
