@@ -19,7 +19,8 @@
 </br>
 
 #### ✨ Preview
-- index.php (home) </br>
+##### index.php (home) 
+
 ![image](https://github.com/user-attachments/assets/4f9c7823-cb47-4f59-8461-0dd20c8fcd1e)
 
 </br>
