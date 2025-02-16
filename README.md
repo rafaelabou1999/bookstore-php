@@ -1,3 +1,4 @@
+
 ## TechStore
 ##### An online bookstore where you can find and explore detailed information about tech books add the ones you desire
 
@@ -18,9 +19,8 @@
 </br>
 
 #### ✨ Preview
-##### index.php (home) 
 
-![image](https://github.com/user-attachments/assets/4f9c7823-cb47-4f59-8461-0dd20c8fcd1e)
+https://github.com/user-attachments/assets/2415cec4-833f-4cc1-afa8-b638dcf3aae4
 
 </br>
 
