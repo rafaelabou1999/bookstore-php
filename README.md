@@ -1,6 +1,6 @@
 
 ## TechStore
-##### An online bookstore where you can find and explore detailed information about tech books add the ones you desire
+#### An online bookstore where you can find and explore detailed information about tech books add the ones you desire
 
 
 #### 🚀 Features
