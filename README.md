@@ -20,9 +20,7 @@
 
 #### ✨ Preview
 
-![Watch the video](https://github.com/user-attachments/assets/2415cec4-833f-4cc1-afa8-b638dcf3aae4)
-
-
+[![Watch the video](https://github.com/user-attachments/assets/8489f182-c37e-47dd-9ba3-c5ebf85e2202)](https://github.com/user-attachments/assets/a3f6834b-cc12-4331-b982-7f621ba1446d)
 
 </br>
 
