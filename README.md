@@ -20,7 +20,10 @@
 
 #### ✨ Preview
 
-![Watch the video](https://github.com/user-attachments/assets/a3f6834b-cc12-4331-b982-7f621ba1446d)
+![Watch the video](https://github.com/user-attachments/assets/5d5e14fa-6398-47df-bf3a-86632e8e9cc3)
+
+
+
 
 </br>
 
